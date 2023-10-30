@@ -213,6 +213,6 @@
             android:layout_margin="20dp"
             />
     </LinearLayout>
-</LinearLayout>
 
-    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

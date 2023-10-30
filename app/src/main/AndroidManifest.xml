@@ -12,6 +12,12 @@
         android:theme="@style/Theme.Kas_Dagang_Makanan"
         tools:targetApi="31">
         <activity
+            android:name=".AkunSayaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
             android:name=".UbahStokBahan"
             android:exported="false" />
         <activity

@@ -4,12 +4,12 @@ plugins {
 
 android {
     namespace 'com.pam.kas_dagang_makanan'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.pam.kas_dagang_makanan"
         minSdk 24
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 

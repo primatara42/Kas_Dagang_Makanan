@@ -143,7 +143,7 @@
                 <ImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:src="@drawable/personIcon"
+                    android:src="@drawable/person"
                     android:layout_toRightOf="@id/btn_masukkanFoto"
                     android:layout_alignParentRight="true"
                     />
@@ -175,7 +175,7 @@
                     android:id="@+id/tv_pindahLogin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Daftar Sekarang"
+                    android:text="Masuk Sekarang"
                     android:textStyle="bold"
                     android:layout_marginHorizontal="5dp"
                     android:textColor="#2A6C88"

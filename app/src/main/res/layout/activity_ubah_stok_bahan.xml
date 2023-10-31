@@ -18,6 +18,7 @@
         android:layout_height="wrap_content"
         android:text="UBAH  FOTO"
         android:backgroundTint="#6FA734"
+        />
 
 
     <LinearLayout

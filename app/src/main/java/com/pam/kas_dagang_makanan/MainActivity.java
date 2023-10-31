@@ -14,15 +14,40 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        LinearLayout lProduk;
+        LinearLayout lProduk, lPenjualan, lPengeluaran, lStok;
         lProduk = findViewById(R.id.card_produk);
+        lPenjualan = findViewById(R.id.card_penjualan);
+        lPengeluaran = findViewById(R.id.card_pengeluaran);
+        lStok = findViewById(R.id.card_stok);
 
         lProduk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(getApplicationContext(), TambahProdukActivity.class));
+                startActivity(new Intent(getApplicationContext(), LihatProdukActivity.class));
             }
         });
+
+        lPenjualan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), LihatPenjualanActivity.class));
+            }
+        });
+
+        lPengeluaran.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), LihatPengeluaranActivity.class));
+            }
+        });
+
+        lStok.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), LihatStokActivity.class));
+            }
+        });
+
 
     }
 
